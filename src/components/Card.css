@@ -8,6 +8,7 @@
   display: block;
   border-radius: 2rem;
   border: solid 0.2rem white;
+  cursor: pointer;
 }
 
 .card-front {
