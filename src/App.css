@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  max-height: fit-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../public/images/ghibli/hd-studio-ghibli-wallpaper.jpg);
+  background-size: cover;
+  background-position: top;
+}
+#ghibli-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../public/images/ghibli/howl_background.jpg);
+}
+#moomin-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../public/images/moomins/moomins_background_2.jpg);
+}
+#horror-background {
+  background-image: url(../public/images/horrors/autumn_background.jpg);
+}
+
+.heading {
+  margin: 4rem auto 1rem auto;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 5rem;
+  color: #ffffff;
+ 
+}
+
+.rules {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 0 2rem 3rem 2rem;
+  padding: 0 3rem;
+}
+.btn-container {
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-container .mode-btn:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.mode-btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 2.4rem;
+  color: rgb(47, 47, 65);
+  border-radius: 3rem;
+  border: none;
+  transition: all 0.1s;
+}
+.mode-btn:hover {
+  transform: translateY(-0.3rem);
+  background-color: #d6d6d6;
+}
+.mode-btn:active {
+  transform: translateY(0);
+}
+.game-grid {
+  margin: 5rem 0 15rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.copyright-container {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6rem;
+}
+
+@media (max-width: 75em) {
+  .game-grid {
+    margin: 4rem 0 15rem 0;
+  }
+  .mode-btn {
+    padding: 1rem 2.5rem;
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 59.38em) {
+  .mode-btn {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 48em) {
+  .btn-container .mode-btn:not(:last-child) {
+    margin-right: 2rem;
+  }
+  .mode-btn {
+    width: max-content;
+    padding: 1rem 2rem;
+    font-size: 2.2rem;
+  }
+
+  .game-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 40.63em) {
+  .heading {
+    font-size: 4.5rem;
+    margin-top: 6rem;
+  }
+
+  .rules {
+    width: 60%;
+  }
+
+  .btn-container .mode-btn:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+  .mode-btn {
+    width: max-content;
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+  }
+  .game-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 26.25em) {
+  .mode-btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+}
