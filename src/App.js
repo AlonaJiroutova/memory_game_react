@@ -3,37 +3,37 @@ import "./App.css";
 import Card from "./components/Card";
 
 const ghibliArr = [
-  { src: "/images/ghibli/kiki-jiji-flying.jpg", matched: false },
-  { src: "/images/ghibli/Jiji.jpg", matched: false },
-  { src: "/images/ghibli/mononoke.jpg", matched: false },
-  { src: "/images/ghibli/chihiro_haku.jpg", matched: false },
-  { src: "/images/ghibli/no-face.jpg", matched: false },
-  { src: "/images/ghibli/arietti.jpg", matched: false },
-  { src: "/images/ghibli/sofi_howl.jpg", matched: false },
-  { src: "/images/ghibli/mei.jpg", matched: false },
-  { src: "/images/ghibli/sho.jpg", matched: false }
+  { src: "../public/images/ghibli/kiki-jiji-flying.jpg", matched: false },
+  { src: "../public/images/ghibli/Jiji.jpg", matched: false },
+  { src: "../public/images/ghibli/mononoke.jpg", matched: false },
+  { src: "../public/images/ghibli/chihiro_haku.jpg", matched: false },
+  { src: "../public/images/ghibli/no-face.jpg", matched: false },
+  { src: "../public/images/ghibli/arietti.jpg", matched: false },
+  { src: "../public/images/ghibli/sofi_howl.jpg", matched: false },
+  { src: "../public/images/ghibli/mei.jpg", matched: false },
+  { src: "../public/images/ghibli/sho.jpg", matched: false },
 ];
 const horrorArr = [
-  { src: "/images/horrors/frankenstein.jpg", matched: false },
-  { src: "/images/horrors/freddy.jpg", matched: false },
-  { src: "/images/horrors/ghostface.jpg", matched: false },
-  { src: "/images/horrors/jason.jpg", matched: false },
-  { src: "/images/horrors/pennywise_2.jpg", matched: false },
-  { src: "/images/horrors/michael_3.jpg", matched: false },
-  { src: "/images/horrors/chuky.jpg", matched: false },
-  { src: "/images/horrors/denny.jpg", matched: false },
-  { src: "/images/horrors/candyman.jpg", matched: false }
+  { src: "../public/images/horrors/frankenstein.jpg", matched: false },
+  { src: "../public/images/horrors/freddy.jpg", matched: false },
+  { src: "../public/images/horrors/ghostface.jpg", matched: false },
+  { src: "../public/images/horrors/jason.jpg", matched: false },
+  { src: "../public/images/horrors/pennywise_2.jpg", matched: false },
+  { src: "../public/images/horrors/michael_3.jpg", matched: false },
+  { src: "../public/images/horrors/chuky.jpg", matched: false },
+  { src: "../public/images/horrors/denny.jpg", matched: false },
+  { src: "../public/images/horrors/candyman.jpg", matched: false },
 ];
 const moominArr = [
-  { src: "/images/moomins/littleMy_2.jpg", matched: false },
-  { src: "/images/moomins/sniff.jpg", matched: false },
-  { src: "/images/moomins/snufkin.jpg", matched: false },
-  { src: "/images/moomins/moomin_with_knife.jpg", matched: false },
-  { src: "/images/moomins/moomin_moominhouse.jpg", matched: false },
-  { src: "/images/moomins/moomin_snorkmaiden.jpg", matched: false },
-  { src: "/images/moomins/moominpapa_1.jpg", matched: false },
-  { src: "/images/moomins/moominmama_2.jpg", matched: false },
-  { src: "/images/moomins/moominhouse.jpg", matched: false }
+  { src: "../public/images/moomins/littleMy_2.jpg", matched: false },
+  { src: "../public/images/moomins/sniff.jpg", matched: false },
+  { src: "../public/images/moomins/snufkin.jpg", matched: false },
+  { src: "../public/images/moomins/moomin_with_knife.jpg", matched: false },
+  { src: "../public/images/moomins/moomin_moominhouse.jpg", matched: false },
+  { src: "../public/images/moomins/moomin_snorkmaiden.jpg", matched: false },
+  { src: "../public/images/moomins/moominpapa_1.jpg", matched: false },
+  { src: "../public/images/moomins/moominmama_2.jpg", matched: false },
+  { src: "../public/images/moomins/moominhouse.jpg", matched: false },
 ];
 
 let cardArr = [];

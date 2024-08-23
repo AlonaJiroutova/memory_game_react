@@ -15,11 +15,11 @@ function Card({ card, handleChoise, flipped, disabled, btnModeId }) {
           className="card-back"
           src={
             btnModeId === "ghibli-mode-btn"
-              ? "/images/ghibli/Studio_Ghibli_dark.jpg"
+              ? "../public/images/ghibli/Studio_Ghibli_dark.jpg"
               : btnModeId === "moomins-mode-btn"
-              ? "/images/moomins/flower_logo.jpg"
+              ? "../public/images/moomins/flower_logo.jpg"
               : btnModeId === "horror-mode-btn"
-              ? "images/horrors/pumpkin_logo.jpg"
+              ? "../public/images/horrors/pumpkin_logo.jpg"
               : ""
           }
           alt="card-back"
