@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/memory_game_react/static/css/main.9d55ea55.css",
-    "main.js": "/memory_game_react/static/js/main.bbda77e1.js",
+    "main.js": "/memory_game_react/static/js/main.90e562d5.js",
     "static/media/autumn_background.jpg": "/memory_game_react/static/media/autumn_background.9b864180ad4ba817ac50.jpg",
     "static/media/hd-studio-ghibli-wallpaper.jpg": "/memory_game_react/static/media/hd-studio-ghibli-wallpaper.c9e468ed38d0aae6bd33.jpg",
     "static/media/moomins_background_2.jpg": "/memory_game_react/static/media/moomins_background_2.a34deec22246d932bd57.jpg",
     "static/media/howl_background.jpg": "/memory_game_react/static/media/howl_background.5635090c77ae9e9b39e7.jpg",
     "index.html": "/memory_game_react/index.html",
     "main.9d55ea55.css.map": "/memory_game_react/static/css/main.9d55ea55.css.map",
-    "main.bbda77e1.js.map": "/memory_game_react/static/js/main.bbda77e1.js.map"
+    "main.90e562d5.js.map": "/memory_game_react/static/js/main.90e562d5.js.map"
   },
   "entrypoints": [
     "static/css/main.9d55ea55.css",
-    "static/js/main.bbda77e1.js"
+    "static/js/main.90e562d5.js"
   ]
 }
